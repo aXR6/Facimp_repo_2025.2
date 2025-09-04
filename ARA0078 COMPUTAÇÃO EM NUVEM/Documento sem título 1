@@ -1,0 +1,18 @@
+Cliente -> WWW/DNS(0.0.0.0)
+Suporte -> SSH
+_______________________
+-- CloudFlare -> www(Registro.br) -> DNS(0.0.0.0)
+Serviço (www)
+|
+|
+_______ LINUX ________
+-- IPS
+_______________________
+_______ LINUX ________
+Proxy - DOCKER
+_______________________API
+_______ LINUX _________
+-- IDS
+-- UFW
+Front-end -API- Back-end - DOCKER
+___________________________

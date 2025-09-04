@@ -1,0 +1,17 @@
+
+  Install: apt update && apt install tor -y && apt autoremove -y
+  
+  Script.sh
+  systemctl restart tor
+  
+  CRON
+  Agenda > Reset > 5 min =: Script.sh
+  
+  User = "tor"
+  User = Permiss = Root
+  User = Permiss = Tor
+  
+  Rsyslog
+  User = TOR
+  Salvos: /var/log/user.tor.log
+  

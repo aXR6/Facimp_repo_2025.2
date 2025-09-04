@@ -1,0 +1,16 @@
+ 1. Internet para conexão
+ 1.1 Vivo, Tim, OnCabo, Júpiter;
+ -------- 1 SRV - Máquina fisica --------
+ ( PROXY - TOR )
+ ( IPSec )
+ ( OpenVPN )
+ -------- 1 SRV - Máquina fisica --------
+    2. Ponto de acesso
+    2.1 Casa, Escritorio, Faculdade, Praça;
+    3. Equipamento
+    3.1 Notebook, SO
+ -------- 1 SRV - Máquina fisica --------
+ ( OpenVPN )
+ ( IPSec )
+ ( PROXY - TOR )
+  -------- 1 SRV - Máquina fisica --------

@@ -1,0 +1,20 @@
+Atores: 
+- Cliente do produto;
+- Hacher;
+Serviços:
+- Cloudflare (SSL, DNSSEC);
+- Registro.br (Dominio)
+Rotas:
+- Provedor do serviço na nuvem (VPS, EC2);
+- Provedor de Internet;
+Ferramentas/Tools:
+- NMAP (Scanner para encontrar serviços e portas);
+Sistema Operacional:
+- Kalli Linux (Ferramentas);
+- ParrotSec (Ferramentas);
+- Tails (Anonimato);
+- ProxMox (Virtualização);
+Ambiente (Praça, Casa, Faculdade etc):
+Obs. 1: Você recebe um endereço IP (IPV4) do seu provedor de internet.
+Obs. 2: Podemos ter o Tails (Distro Linux) com navegação na rede tor.
+Obs. 3: Proxy utilizando a rede TOR (ping +/-200ms).
